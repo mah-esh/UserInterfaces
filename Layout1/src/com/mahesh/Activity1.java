@@ -27,13 +27,16 @@ protected void onCreate(Bundle savedInstanceState) {
 	typeface = Typeface.createFromAsset(getAssets(), "Roboto-BlackItalic.ttf");
 	txt.setText("Hello Mahesh Learn Android In depth");
 	txt.setTypeface(typeface);*/
-	findViewById(R.id.button1).setOnClickListener(new OnClickListener() {
+	
+	/*  //(comment3)
+	 	findViewById(R.id.button1).setOnClickListener(new OnClickListener() {
 		
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
 		Toast.makeText(Activity1.this,"Button Clicked", Toast.LENGTH_SHORT).show();	
 		}
-	});
+		
+	});*/
 }
 }
